@@ -17,7 +17,6 @@ export function Posts() {
 
   // replace with useQuery
   const { data } = useQuery("posts", fetchPosts);
-  // if (!data) return <div />;
 
   return (
     <>
